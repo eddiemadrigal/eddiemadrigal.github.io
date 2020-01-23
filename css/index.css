@@ -240,6 +240,9 @@ section img.main-image {
 article ul li {
   width: 200px;
 }
+section.contact-form form {
+  text-align: center;
+}
 @media (max-width: 1400px) {
   img {
     padding-left: 2%;

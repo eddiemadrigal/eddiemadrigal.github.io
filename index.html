@@ -98,7 +98,12 @@
       <section class="contact-form">
         <form name="contact" action="https://eddiemadrigal.net/processcontactformurl.php" method="post">
           <input type="hidden" name="url" value="github">
-          <input type="text" name="name" placehold="Your Name">
+          <label for="form-name">Name</label>
+          <input type="text" name="name" placehold="Your Name" id="form-name" required><br />
+          <label for="form-email">Email Address</label>
+          <input type="email" name="email" placehold="Your Email Address" id="form-email" required><br />
+          <label for="form-message">Message</label>
+          <textarea name="message" id="form-message"></textarea><br />
           <input type="submit" name="Send Message">
         </form>
 
