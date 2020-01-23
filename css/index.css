@@ -225,6 +225,9 @@ section.three-column {
 .about-my-work article {
   padding: 4%;
 }
+img {
+  width: 100%;
+}
 section img.main-image {
   max-width: 90%;
   display: block;
@@ -236,4 +239,9 @@ section img.main-image {
 }
 article ul li {
   width: 200px;
+}
+@media (max-width: 800px) {
+  article.header-images {
+    display: block;
+  }
 }
