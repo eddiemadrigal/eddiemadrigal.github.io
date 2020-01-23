@@ -280,11 +280,13 @@ section img.main-image {
   text-align: center;
   padding-bottom: 2%;
 }
-article ul li {
-  width: 200px;
+article ul li,
+.three-column article {
+  width: 250px;
 }
 @media (max-width: 800px) {
-  article ul li {
+  article ul li,
+  .three-column article {
     width: 90%;
   }
 }
@@ -325,7 +327,6 @@ td input {
   justify-content: space-around;
 }
 .portfolio-articles article {
-  width: 30%;
   padding: 0 2%;
 }
 .portfolio-articles article p {
