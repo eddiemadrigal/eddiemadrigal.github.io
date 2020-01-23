@@ -202,9 +202,17 @@ ul li {
 	padding: 2%;
 }
 
-nav ul {
-	display: flex;
+.nav-ul-display {
+	display: flex
+}
+
+.nav-ul-justify {
 	justify-content: flex-end;
+}
+
+nav ul {
+	.nav-ul-display();
+	.nav-ul-justify();
 }
 
 footer ul {
@@ -236,9 +244,17 @@ p.article {
 	text-align: center;
 }
 
-p.main-img-attribution {
+.main-img-attribution-text-align {
 	text-align: center;
+}
+
+.main-img-attribution-margin {
 	margin: 5% auto 1%;
+}
+
+p.main-img-attribution {
+	.main-img-attribution-text-align();
+	.main-img-attribution-margin();
 }
 
 section.three-column {
@@ -317,8 +333,6 @@ td input {
 	width: 100%;
 	padding: 2%;
 }
-
-
 
 @media (max-width: 800px) {
 

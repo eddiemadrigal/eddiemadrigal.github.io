@@ -189,6 +189,12 @@ a:hover {
 ul li {
   padding: 2%;
 }
+.nav-ul-display {
+  display: flex;
+}
+.nav-ul-justify {
+  justify-content: flex-end;
+}
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -217,6 +223,12 @@ article.header-images {
 }
 p.article {
   text-align: center;
+}
+.main-img-attribution-text-align {
+  text-align: center;
+}
+.main-img-attribution-margin {
+  margin: 5% auto 1%;
 }
 p.main-img-attribution {
   text-align: center;
