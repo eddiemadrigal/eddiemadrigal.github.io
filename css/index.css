@@ -243,6 +243,19 @@ article ul li {
 section.contact-form form {
   text-align: center;
 }
+table {
+  margin: 0 auto;
+  width: 40%;
+}
+td {
+  text-align: left;
+  width: 100%;
+}
+td textarea,
+td input {
+  width: 100%;
+  padding: 2%;
+}
 @media (max-width: 1400px) {
   img {
     padding-left: 2%;
