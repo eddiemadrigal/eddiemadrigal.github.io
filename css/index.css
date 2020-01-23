@@ -251,5 +251,9 @@ article ul li {
   }
   section.three-column {
     display: block;
+    width: 100%;
+  }
+  article ul li {
+    width: 90%;
   }
 }
