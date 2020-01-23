@@ -210,6 +210,11 @@ article.header-images {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 800px) {
+  article.header-images {
+    display: block;
+  }
+}
 p.article {
   text-align: center;
 }
@@ -222,11 +227,22 @@ section.three-column {
   justify-content: space-evenly;
   padding: 0 4%;
 }
+@media (max-width: 800px) {
+  section.three-column {
+    display: block;
+    width: 100%;
+  }
+}
 .about-my-work article {
   padding: 4%;
 }
 img {
   width: 100%;
+}
+@media (max-width: 1400px) {
+  img {
+    padding-left: 2%;
+  }
 }
 section img.main-image {
   max-width: 90%;
@@ -239,6 +255,11 @@ section img.main-image {
 }
 article ul li {
   width: 200px;
+}
+@media (max-width: 800px) {
+  article ul li {
+    width: 90%;
+  }
 }
 section.contact-form {
   background-color: #eee;
@@ -262,19 +283,7 @@ td input {
   width: 100%;
   padding: 2%;
 }
-@media (max-width: 1400px) {
-  img {
-    padding-left: 2%;
-  }
-}
 @media (max-width: 800px) {
-  article.header-images {
-    display: block;
-  }
-  section.three-column {
-    display: block;
-    width: 100%;
-  }
   article ul li {
     width: 90%;
   }

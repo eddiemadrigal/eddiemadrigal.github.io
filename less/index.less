@@ -226,6 +226,10 @@ li {
 article.header-images {
 	display: flex;
 	justify-content: space-around;
+
+	@media (max-width: 800px) {
+		display: block;
+	}
 }
 
 p.article {
@@ -241,6 +245,11 @@ section.three-column {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 0 4%;
+
+	@media (max-width: 800px) {
+		display: block;
+		width: 100%;
+	}
 }
 
 .about-my-work article {
@@ -249,6 +258,10 @@ section.three-column {
 
 img {
 	width: 100%;
+
+	@media (max-width: 1400px) {
+		padding-left: 2%;
+	}
 }
 
 section img.main-image {
@@ -264,6 +277,10 @@ section img.main-image {
 
 article ul li {
 	width: 200px;
+
+	@media (max-width: 800px) {
+		width: 90%;
+	}
 }
 
 section.contact-form {
@@ -287,26 +304,15 @@ td {
 	width: 100%;
 }
 
-td textarea, td input {
+td textarea,
+td input {
 	width: 100%;
 	padding: 2%;
 }
 
-@media (max-width: 1400px) {
-	img {
-		padding-left: 2%;
-	}
-}
+
 
 @media (max-width: 800px) {
-	article.header-images {
-		display: block;
-	}
-
-	section.three-column {
-		display: block;
-		width: 100%;
-	}
 
 	article ul li {
 		width: 90%;
