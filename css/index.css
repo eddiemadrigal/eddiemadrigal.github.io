@@ -182,6 +182,8 @@ h4 {
 a {
   text-decoration: none;
   color: #000;
+}
+nav a {
   font-size: 2rem;
 }
 a:hover {
@@ -259,7 +261,7 @@ section.three-column {
   }
 }
 .about-my-work article {
-  padding: 4%;
+  padding: 2% 0 4%;
 }
 img {
   width: 100%;
@@ -331,4 +333,8 @@ td input {
 }
 .portfolio-articles article button {
   margin-top: 2%;
+}
+.about-my-work article p {
+  margin: 0 auto;
+  width: 90%;
 }
