@@ -127,6 +127,7 @@ table {
   border-spacing: 0;
 }
 /* Set every element's box-sizing to border-box */
+/* variables */
 * {
   box-sizing: border-box;
 }

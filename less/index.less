@@ -49,6 +49,12 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
+/* variables */
+@left-margin-color: 		lightblue;
+@a-text-decoration:			none;
+@a-text-decoration-hover: 	underline;
+
 * {
     box-sizing: border-box;
 }
@@ -65,7 +71,7 @@ html {
 .container {
 	margin: 2% 10% 0;
 	padding-bottom: 3%;
-	border: 3px solid lightblue;
+	border: 3px solid @left-margin-color;
 	border-style: none none solid solid;
 }
 
@@ -91,12 +97,12 @@ h4 {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: @a-text-decoration;
 	color: #000;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: @a-text-decoration-hover;
 }
 
 ul li {
