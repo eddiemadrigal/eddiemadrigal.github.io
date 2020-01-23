@@ -249,4 +249,7 @@ article ul li {
   article.header-images {
     display: block;
   }
+  section.three-column {
+    display: block;
+  }
 }
