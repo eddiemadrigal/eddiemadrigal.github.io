@@ -13,10 +13,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
   <script>
-  let urlParams = new URLSearchParams(window.location.search);
-  if (urlParams.has('message')) {
-    alert("Your message has been sent. Thank you.")
-  }
+    let urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('message')) {
+      alert("Your message has been sent. Thank you.")
+    }
   </script>
 
 </head>
@@ -78,16 +78,6 @@
       </section>
     </header>
     <main>
-      <section class="about-my-work">
-        <article>
-          <h3 id="about">About My Work</h3>
-          <p>If you are considering developing a site from scratch, or using a template from sites like <a
-              href="https://html5up.com" target="_blank">https://html5up.com</a> or using the Bootstrap 4 front-end
-            framework, I would be more than happy to help get your site up and running. Websites using Content Mangement
-            Systems like WordPress are also very doable. Email to get more info at <a
-              href="mailto:edmadrigal@yahoo.com">edmadrigal@yahoo.com</a></p>
-        </article>
-      </section>
       <section>
         <p class="main-img-attribution"><a
             style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', Helvetica, Ubuntu, Roboto, Noto, 'Segoe UI', Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
@@ -102,14 +92,44 @@
               </svg></span><span style="display:inline-block;padding:2px 3px">Hal Gatewood</span></a></p clas>
         <img class="main-image" src="img/pic03.jpg" alt="Image depicting a layout sketch of a web page" />
       </section>
-      <section class="contact-form">
+      <section class="about-my-work">
+        <article>
+          <h3 id="about">About My Work</h3>
+          <p>If you are considering developing a site from scratch, or using a template from sites like <a
+              href="https://html5up.com" target="_blank">https://html5up.com</a> or using the Bootstrap 4 front-end
+            framework, I would be more than happy to help get your site up and running. Websites using Content Mangement
+            Systems like WordPress are also very doable. Email to get more info at <a
+              href="mailto:edmadrigal@yahoo.com">edmadrigal@yahoo.com</a></p>
+        </article>
+      </section>
+
+      <section class="contact-form" id="contact">
         <form name="contact" action="https://eddiemadrigal.net/processcontactformurl.php" method="post">
           <input type="hidden" name="url" value="github">
           <table>
-            <tr><td><p>Name:</p><input type="text" name="name" placeholder="Your Name" required></td></tr>
-            <tr><td><p>Email:</p><input type="email" name="email" placeholder="Your Email Address" required></td></tr>
-            <tr><td><p>Message:</p><textarea name="message"></textarea></td></tr>
-            <tr><td><input type="submit" value="Send Message"></td></tr>
+            <tr>
+              <td>
+                <h3>Contact Form</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Name:</p><input type="text" name="name" placeholder="Your Name" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Email:</p><input type="email" name="email" placeholder="Your Email Address" required>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Message:</p><textarea name="message"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><input type="submit" value="Send Message"></td>
+            </tr>
           </table>
         </form>
 
@@ -164,11 +184,12 @@
       </section>
     </main>
   </div>
-  <footer id="contact">
+  <footer>
     <ul>
       <li><a href="https://twitter.com/edmadrigal" target="_blank" class="icon brands style2 fa-twitter"><span
             class="label">Twitter</span></a></li>
-      <li><a href="https://fb.me/edmadrigalwebdesign" target="_blank"class="icon brands style2 fa-linkedin-in"><span class="label">Facebook</span><i class="fab fa-facebook-square"></i></a>
+      <li><a href="https://fb.me/edmadrigalwebdesign" target="_blank" class="icon brands style2 fa-linkedin-in"><span
+            class="label">Facebook</span><i class="fab fa-facebook-square"></i></a>
       </li>
       <li><a href="https://www.instagram.com/edmadrigal_photographer/" target="_blank"
           class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
