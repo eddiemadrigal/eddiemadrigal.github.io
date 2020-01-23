@@ -203,6 +203,12 @@ footer ul {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  footer ul {
+    display: block;
+    margin: 0 auto;
+  }
+}
 footer p {
   text-align: center;
   margin-bottom: 3%;
@@ -304,9 +310,4 @@ td textarea,
 td input {
   width: 100%;
   padding: 2%;
-}
-@media (max-width: 800px) {
-  article ul li {
-    width: 90%;
-  }
 }
